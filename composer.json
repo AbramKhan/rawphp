@@ -1,0 +1,20 @@
+{
+"name": "vendor_name/ssit5-project",
+"description": "description",
+"minimum-stability": "stable",
+"license": "proprietary",
+"authors": [
+    {
+        "name": "Abram Khan",
+        "email": "abramkhan029@gmail.com"
+    }
+],
+"require": {
+                "phpmailer/phpmailer": "^6.6"
+        },
+"autoload": {
+    "psr-4": {
+        "App\\": "app"
+        }
+    }
+}
